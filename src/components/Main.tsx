@@ -3,6 +3,7 @@ import ConfirmPay from "@/ui_components/ConfirmPay";
 import EnterDetails from "@/ui_components/EnterDetails";
 import PaymentMode from "@/ui_components/PaymentMode";
 import React from "react";
+import Sidebar from "./Sidebar";
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
         <PaymentMode />
         <ConfirmPay />
       </div>
+      <Sidebar />
     </div>
   );
 }
