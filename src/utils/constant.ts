@@ -1,3 +1,8 @@
+import chatIcon from "../../public/chats-circle.svg";
+import calendarIcon from "../../public/calendar-blank.svg"
+import wavyCircleIcon from "../../public/circlewavy-check.svg"
+import shieldIcon from "../../public/shield.svg"
+
 export const FAQ_DATA = [
     {
       question: "Are my tickets transferable?",
@@ -40,3 +45,29 @@ export const FAQ_DATA = [
         "Depending on your bank, it typically takes anywhere between 2-7 working days for the refunded amount to reflect in your account.",
     },
   ];
+
+  const Images = [wavyCircleIcon,chatIcon,calendarIcon,shieldIcon]
+  
+  export const FEATURES_DATA = [
+    {
+      icon: Images[0],
+      title: "Official tickets",
+      description: "Authorized reseller to top attraction",
+    },
+    {
+      icon: Images[1],
+      title: "24/7 dedicated support",
+      description: "We're here to help, talk to an expert",
+    },
+    {
+      icon: Images[2],
+      title: "Flexible bookings",
+      description: "Book stress-free with easy cancellation",
+    },
+    {
+      icon: Images[3],
+      title: "100% secure payments",
+      description: "Internationally recognized encrypted payment process",
+    },
+  ];
+  
