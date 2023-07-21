@@ -27,7 +27,7 @@ function PaymentMode() {
           name="<Card Number>"
           placeholder="1234 1234 1234 1234"
         />
-        <span className="absolute right-3 top-4">
+        <span className="absolute top-28 right-2  md:right-3 md:top-4">
           <Image src={"visa.svg"} alt="visa" width={70} height={48} />
         </span>
         <Input type="text" name="<Expiry Date>" placeholder="06/26" />

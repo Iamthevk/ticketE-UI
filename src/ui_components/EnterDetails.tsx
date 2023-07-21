@@ -22,8 +22,23 @@ function EnterDetails() {
           name="<Phone number>"
           placeholder={`         +85 2345345678`}
         />
-        <span className="absolute md:right-[330px] md:top-7">
-          <Image src={"hongk-flag.svg"} alt="flag" width={32} height={24} />
+        <span className="absolute top-[120px] left-3 md:hidden">
+          <Image
+            src={"hongk-flag.svg"}
+            alt="flag"
+            width={32}
+            height={24}
+            className="rounded-lg"
+          />
+        </span>
+        <span className="absolute md:right-[330px] md:top-7 hidden md:block">
+          <Image
+            src={"hongk-flag.svg"}
+            alt="flag"
+            width={32}
+            height={24}
+            className="rounded-lg"
+          />
         </span>
         <Input type="text" name="<Full name>" placeholder="hi@tickete.com" />
         <Input
