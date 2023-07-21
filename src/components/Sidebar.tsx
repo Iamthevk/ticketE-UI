@@ -1,10 +1,12 @@
 import React from "react";
 import SidebarHeader from "./SidebarHeader";
+import TicketOverview from "./TicketOverview";
 
 function Sidebar() {
   return (
-    <div>
+    <div className="-ml-10">
       <SidebarHeader />
+      <TicketOverview />
     </div>
   );
 }
