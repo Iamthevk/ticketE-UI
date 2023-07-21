@@ -1,5 +1,7 @@
 import AdditionalInfo from "@/ui_components/AdditionalInfo";
+import ConfirmPay from "@/ui_components/ConfirmPay";
 import EnterDetails from "@/ui_components/EnterDetails";
+import PaymentMode from "@/ui_components/PaymentMode";
 import React from "react";
 
 function Main() {
@@ -10,6 +12,8 @@ function Main() {
       <div className="md:border-r md:border-solid md:border-light-gray md:pr-6 mt-10 md:mt-0">
         <EnterDetails />
         <AdditionalInfo />
+        <PaymentMode />
+        <ConfirmPay />
       </div>
     </div>
   );
