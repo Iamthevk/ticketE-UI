@@ -5,6 +5,9 @@ function SidebarHeader() {
   return (
     <div className="max-w-[360px] border-b border-solid border-greyscale6 text-greyscale2 font-semibold ">
       <div className="w-full mb-3">
+        <h1 className="text-greyscale2 text-3xl font-semibold mb-16 md:hidden">
+          Confirm and pay
+        </h1>
         <Image
           className="w-full rounded-xl"
           src={"/images/profile-desktop.png"}

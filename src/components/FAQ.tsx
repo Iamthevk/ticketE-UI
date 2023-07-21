@@ -1,6 +1,7 @@
 import Accordion from "@/shared/Accordion";
 import { FAQ_DATA } from "@/utils/constant";
 import React from "react";
+import HelpSection from "./HelpSection";
 
 function FAQ() {
   return (
@@ -21,6 +22,7 @@ function FAQ() {
           );
         })}
       </div>
+      <HelpSection />
     </div>
   );
 }

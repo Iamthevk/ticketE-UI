@@ -21,7 +21,7 @@ function ConfirmPay() {
             Total: 11,000
           </h2>
           <p className="text-xs text-greyscale3 underline">
-            You will pay in Rupees
+            You will pay in INR
           </p>
         </div>
 

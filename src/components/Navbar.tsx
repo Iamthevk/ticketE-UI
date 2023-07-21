@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <nav className="py-6 flex items-center justify-between mx-11">
+    <nav className="py-6 flex items-center justify-between">
       <Image src="logo.svg" alt="logo" width={76} height={24} />
       <div className="flex gap-2">
         <Image src="question.svg" alt="logo" width={20} height={20} />

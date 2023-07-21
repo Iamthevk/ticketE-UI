@@ -4,7 +4,7 @@ import TicketOverview from "./TicketOverview";
 
 function Sidebar() {
   return (
-    <div className="-ml-10">
+    <div className="mr-20">
       <SidebarHeader />
       <TicketOverview />
     </div>
