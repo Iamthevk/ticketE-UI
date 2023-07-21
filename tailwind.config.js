@@ -18,7 +18,9 @@ module.exports = {
       colors: {
           greyscale2 : "#474747",
           greyscale3: "#595959",
+          greyscale5: "#999999",
           greyscale6: "#D6D6D6",
+          greyscale7: "#EBEBEB",
           error: "#C22F00"
       }
     },
