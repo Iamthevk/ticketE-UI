@@ -13,16 +13,17 @@ function EnterDetails() {
       <Header
         heading="Enter your details"
         paragraph="We'll be sending your tickets to the details below. Booking for a friend? Add their details."
+        className="pb-6"
       />
       <div className="relative py-2 grid md:grid-cols-2 gap-6 mb-11">
         <Input type="text" name="<Full Name>" placeholder="Tickete Inc" />
         <Input
-          type="number"
+          type="text"
           name="<Phone number>"
-          placeholder="         +85 2345345678"
+          placeholder={`         +85 2345345678`}
         />
         <span className="absolute md:right-[330px] md:top-7">
-          <Image src={"hongkFlag.svg"} alt="flag" width={32} height={24} />
+          <Image src={"hongk-flag.svg"} alt="flag" width={32} height={24} />
         </span>
         <Input type="text" name="<Full name>" placeholder="hi@tickete.com" />
         <Input

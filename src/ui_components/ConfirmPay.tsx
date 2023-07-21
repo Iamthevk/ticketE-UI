@@ -13,7 +13,7 @@ function ConfirmPay() {
             </span>
           </div>
 
-          <Image src={"radioempty.svg"} alt="radio" width={24} height={24} />
+          <Image src={"radio-empty.svg"} alt="radio" width={24} height={24} />
         </div>
 
         <div className="mb-10">
@@ -26,9 +26,9 @@ function ConfirmPay() {
         </div>
 
         <div className="bg-[#F5F5F5] rounded-lg flex items-center gap-3 p-4 mb-6">
-          <Image src={"radioButton.svg"} alt="radio" width={16} height={16} />
+          <Image src={"radio-button.svg"} alt="radio" width={16} height={16} />
           <span className=" text-greyscale2 text-xs font-semibold ">
-            Receive travel tips, suggestions and offers in Banglore by email
+            Receive travel tips, suggestions and offers in Delhi by email
           </span>
         </div>
 

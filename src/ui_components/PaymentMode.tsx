@@ -14,11 +14,11 @@ function PaymentMode() {
       <div className="flex justify-between pb-5 items-center">
         <div className="flex gap-5">
           <Image src={"creditcard.svg"} alt="cc" width={24} height={24} />
-          <span className="text-dark-gray font-semibold text-sm md:text-base text-greyscale2">
+          <span className="font-semibold text-sm md:text-base text-greyscale2">
             Credit & debit card
           </span>
         </div>
-        <Image src={"radioButton.svg"} alt="cc" width={24} height={24} />
+        <Image src={"radio-button.svg"} alt="cc" width={24} height={24} />
       </div>
       <div className="relative py-2 grid md:grid-cols-2 gap-6 mb-11">
         <Input type="text" name="<Name on Card>" placeholder="Tickete Inc" />

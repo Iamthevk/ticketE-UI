@@ -25,7 +25,7 @@ const Input: React.FC<InputdataProps> = ({
       <input
         type={type}
         placeholder={placeholder}
-        className={`text-greyscale2 outline-none px-1 text-sm md:text-base `}
+        className={`text-greyscale2 outline-none px-1 text-sm md:text-base placeholder:text-greyscale3`}
       />
     </div>
   );
