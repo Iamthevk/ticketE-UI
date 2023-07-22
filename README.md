@@ -11,7 +11,13 @@ A ticketE checkout page UI where users can enter card details and additional inf
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/Iamthevk/ticketE-UI`
+
+2. Navigate to the project directory: `cd ticketE-UI`
+
+3. Install dependencies: `yarn or yarn install`
+
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -23,18 +29,15 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Check out the live demo of the app deployed on [Vercel](https://vercel.com) at [https://tickete.vercel.app/](https://tickete.vercel.app/).
 
-## Learn More
+# screenshots of the webapp
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://raw.githubusercontent.com/Iamthevk/ticketE-UI/master/public/images/desktop.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![image](https://raw.githubusercontent.com/Iamthevk/ticketE-UI/master/public/images/mobile.png)
 
 ## Deploy on Vercel
 
