@@ -5,7 +5,7 @@ import Image from "next/image";
 function Navbar() {
   return (
     <nav
-      className={`py-6 items-center justify-between bg-white fixed top-0 z-10 transition-transform translate-y-0 md:w-[85%] hidden md:flex md:mb-20`}
+      className={`py-6 items-center justify-between bg-white fixed top-0 z-10 w-full pr-60 hidden md:flex md:mb-20`}
     >
       <Image src="logo.svg" alt="logo" width={76} height={24} />
       <div className="flex gap-2">
