@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ticketE-UI
+
+A ticketE checkout page UI where users can enter card details and additional information to pay smoothly.
+
+## Features
+
+- Vite as the build tool
+- React for building user interfaces
+- TypeScript for static typing
+- Tailwind CSS
 
 ## Getting Started
 

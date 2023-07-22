@@ -11,7 +11,7 @@ function AdditionalInfo() {
         paragraph="We need a few more details to complete your reservation."
         className="pb-6"
       />
-      <div className="relative gap-5 grid md:grid-cols-2">
+      <div className="relative gap-5 grid xl:grid-cols-2">
         <Input type="text" name="<Full Name>" placeholder="<Custom Input>" />
         <Input type="text" name="<dropdown>" placeholder="<dropdown>" />
         <span className="absolute right-6 top-6">

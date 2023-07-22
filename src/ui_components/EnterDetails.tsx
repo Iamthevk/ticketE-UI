@@ -15,7 +15,7 @@ function EnterDetails() {
         paragraph="We'll be sending your tickets to the details below. Booking for a friend? Add their details."
         className="pb-6"
       />
-      <div className="relative py-2 grid md:grid-cols-2 gap-6 mb-11">
+      <div className="relative py-2 grid xl:grid-cols-2 gap-6 mb-11">
         <Input type="text" name="<Full Name>" placeholder="Tickete Inc" />
         <Input
           type="text"
@@ -44,7 +44,7 @@ function EnterDetails() {
         <Input
           type="email"
           name="<Full Name>"
-          placeholder="hi@tickete.com"
+          placeholder="hi@tickete/com"
           border="!border-error"
         />
         <span className="absolute -bottom-3 left-[52%] text-error">

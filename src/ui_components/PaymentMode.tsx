@@ -20,7 +20,7 @@ function PaymentMode() {
         </div>
         <Image src={"radio-button.svg"} alt="cc" width={24} height={24} />
       </div>
-      <div className="relative py-2 grid md:grid-cols-2 gap-6 mb-11">
+      <div className="relative py-2 grid xl:grid-cols-2 gap-6 mb-11">
         <Input type="text" name="<Name on Card>" placeholder="Tickete Inc" />
         <Input
           type="number"
