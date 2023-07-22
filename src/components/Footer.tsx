@@ -14,7 +14,7 @@ function Footer() {
         />
 
         <div className="mt-10 md:mt-20 flex flex-col-reverse md:border-t border-greyscale5 md:flex-row md:items-center justify-between md:py-10 pb-10 gap-10 md:gap-0">
-          <div className="flex flex-row items-center gap-4 text-xs md:text-base text-[#ebebeb]">
+          <div className="flex flex-row items-center gap-4 text-greyscale7 text-xs md:text-base ">
             <Link
               className="underline underline-offset-4 whitespace-nowrap"
               href="/"

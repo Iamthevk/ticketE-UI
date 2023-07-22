@@ -3,7 +3,7 @@ import React from "react";
 
 function TicketOverview() {
   return (
-    <div className="sm:w-[360px] w-full text-greyscale2">
+    <div className="md:w-[360px] w-full text-greyscale2 py-4">
       <h3 className="font-semibold text-lg mb-8">Tickets overview</h3>
       <div className="flex items-center justify-between mb-4">
         <span>{"<pax type>"}</span>
@@ -24,9 +24,13 @@ function TicketOverview() {
 
       <div className="py-6 flex items-center gap-3 border-y border-solid border-greyscale6 text-sm font-semibold  mb-6">
         <Image src={"promo-tag.svg"} alt="promo-tag" width={20} height={20} />
-        <span className="font-semibold underline text-[#006642] text-sm">
+        <span className="font-semibold underline text-[#006642] text-sm md:block hidden">
           Have a promo code?
         </span>
+        <div className="font-semibold flex justify-between items-center underline text-sm md:hidden w-full">
+          <p className=" text-[#006642]">‘TICKETE10’ applied</p>
+          <button className="text-greyscale3 block">Remove</button>
+        </div>
       </div>
 
       <div className="flex items-center justify-between font-semibold mb-1">

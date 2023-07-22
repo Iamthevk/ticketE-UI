@@ -5,8 +5,8 @@ import Image from "next/image";
 
 function EnterDetails() {
   return (
-    <div>
-      <h1 className="text-greyscale2 text-5xl font-semibold mb-16 hidden md:block">
+    <div className="md:pt-12">
+      <h1 className="text-greyscale2 text-5xl font-semibold mb-16 hidden md:block ">
         Confirm and pay
       </h1>
 

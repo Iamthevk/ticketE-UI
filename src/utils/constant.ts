@@ -1,7 +1,7 @@
 import chatIcon from "../../public/chats-circle.svg";
 import calendarIcon from "../../public/calendar-blank.svg"
 import wavyCircleIcon from "../../public/circlewavy-check.svg"
-import shieldIcon from "../../public/shield.svg"
+import shieldIcon from "../../public/shield-checkered.svg"
 
 export const FAQ_DATA = [
     {
