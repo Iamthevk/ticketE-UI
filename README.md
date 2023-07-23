@@ -11,7 +11,7 @@ A ticketE checkout page UI where users can enter card details and additional inf
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/Iamthevk/ticketE-UI`
+1. Clone the repository: `git clone https://github.com/Iamthevk/ticketE-UI.git`
 
 2. Navigate to the project directory: `cd ticketE-UI`
 
